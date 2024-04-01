@@ -154,3 +154,20 @@ select {
     background: #FFB534;
     color: #1B4242;
 }
+
+@media screen and (max-width: 600px) {
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .todo-input {
+        margin-left: 1.5rem;
+        width: 50%;
+    }
+
+    .filter-todo {
+        width: 70%;
+    }
+
+  }
